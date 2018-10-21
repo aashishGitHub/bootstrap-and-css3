@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>    
+	<style>
+	body{
+	margin:0;
+	display:flex;
+	}
+	#side-menu{
+		width:200px;
+		background-color:#e5e5e5;
+		height:100vh;
+	}
+	
+	#content{
+		display:flex;
+		flex:1; // set this child is set to atleast 1 so that it spreads out (default it is 0)
+	}
+	#content div{
+		border: 1px solid black;
+		height:5em;
+		flex:1;
+		margin:5px;
+	}
+	</style>	
+</head>
+<body>
+<div id="side-menu"></div>
+<div id="content">
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+</div>
+   
+</body>
+</html>
